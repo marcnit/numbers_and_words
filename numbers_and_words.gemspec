@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "numbers_and_words"
-  s.version = "0.10.3"
+  s.version = "0.10.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kirill Lazarev"]
@@ -41,6 +41,7 @@ Gem::Specification.new do |s|
     "lib/numbers_and_words/i18n/locales/numbers.lv.yml",
     "lib/numbers_and_words/i18n/locales/numbers.nl.yml",
     "lib/numbers_and_words/i18n/locales/numbers.pt.yml",
+    "lib/numbers_and_words/i18n/locales/numbers.pt-BR.yml",
     "lib/numbers_and_words/i18n/locales/numbers.ru.yml",
     "lib/numbers_and_words/i18n/locales/numbers.se.yml",
     "lib/numbers_and_words/i18n/locales/numbers.tr.yml",
@@ -104,6 +105,7 @@ Gem::Specification.new do |s|
     "lib/numbers_and_words/strategies/figures_converter/languages/lv.rb",
     "lib/numbers_and_words/strategies/figures_converter/languages/nl.rb",
     "lib/numbers_and_words/strategies/figures_converter/languages/pt.rb",
+    "lib/numbers_and_words/strategies/figures_converter/languages/pt_br.rb",
     "lib/numbers_and_words/strategies/figures_converter/languages/ru.rb",
     "lib/numbers_and_words/strategies/figures_converter/languages/se.rb",
     "lib/numbers_and_words/strategies/figures_converter/languages/tr.rb",
